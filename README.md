@@ -1,85 +1,85 @@
-COMP3123 – Full Stack Development Assignment
+# COMP3123 – Full Stack Development Assignment
 
 Student: Meriç Yassine (101503213)
 Course: COMP 3123 – Full Stack Development I
 Semester: Fall 2025
 Assignment: Backend + Frontend
 
-Project Overview
+## Project Overview
 
 This project implements a full-stack Employee Management System using:
 
-Backend: Node.js, Express, MongoDB (Assignment 1 requirements)
+### Backend: Node.js, Express, MongoDB (Assignment 1 requirements)
 
-Frontend: ReactJS with Material UI, Axios, React Router, React Query (Assignment 2 requirements)
+### Frontend: ReactJS with Material UI, Axios, React Router, React Query (Assignment 2 requirements)
 
 The system allows users to:
 
-Sign up for a new account
+- Sign up for a new account
 
-Log in and authenticate
+- Log in and authenticate
 
-View employee records
+- View employee records
 
-Create new employees (Postman)
+- Create new employees (Postman)
 
-Delete employees
+- Delete employees
 
-Log out and securely end session
+- Log out and securely end session
 
-Front-end features include:
+- Front-end features include:
 
-Clean Material UI design
+- Clean Material UI design
 
-Protected routing
+- Protected routing
 
-State management via React Query
+- State management via React Query
 
-API error handling
+- API error handling
 
-Responsive layouts
+- Responsive layouts
 
 
-🚀 How to Run the Project
-🔧 1. Requirements
+## 🚀 How to Run the Project
+### 🔧 1. Requirements
 
-Node.js (v18+ recommended)
+- Node.js (v18+ recommended)
 
-MongoDB running locally (mongodb://localhost:27017)
+- MongoDB running locally (mongodb://localhost:27017)
 
-npm or yarn
+- npm or yarn
 
-🖥️ 2. Run the Backend (PORT: 3001)
-Navigate to backend:
+### 🖥️ 2. Run the Backend (PORT: 3001)
+- Navigate to backend:
 cd backend
 
-Install dependencies:
+- Install dependencies:
 npm install
 
-Create .env:
+- Create .env:
 PORT=3001
 MONGO_URL=mongodb://localhost:27017/comp3123_assignment1
 JWT_SECRET=secret123
 
-Start backend:
+- Start backend:
 npm start
 
-Expected console output:
+- Expected console output:
 MongoDB connected
 Server running on port 3001
 
-💻 3. Run the Frontend (PORT: 3000)
-Navigate to frontend:
+### 💻 3. Run the Frontend (PORT: 3000)
+- Navigate to frontend:
 cd frontend
 
-Install dependencies:
+- Install dependencies:
 npm install
 
-Start React:
+- Start React:
 npm start
 
 
-Frontend should open automatically at:
+- Frontend should open automatically at:
 
 👉 http://localhost:3000
 
@@ -114,70 +114,30 @@ Protected routes to prevent anonymous access
 ✓ Logout & redirect back to login
 ✓ Clean, professional UI following Material Design
 
-🧪 Postman Testing Screenshots (Backend Validation)
 
-The following screenshots are included in /screenshots or the final PDF:
+## 🧩 Technologies Used
+### Backend
 
-Signup (201 Created)
+- Node.js
 
-Login (200 OK + token)
+- Express.js
 
-Create Employee (201 Created)
+- MongoDB / Mongoose
 
-Get All Employees (200 OK)
+- JWT Authentication
 
-Delete Employee (204 No Content)
+- bcrypt
 
-🖼️ Frontend Screenshots Included
+### Frontend
 
-Screenshots include:
+- ReactJS
 
-Signup page (success message)
+- Material UI
 
-Login page
+- React Router
 
-Employee list page
+- Axios
 
-Delete employee action
+- React Query
 
-Logout redirect
-
-Additional UI screenshots as required
-
-🧩 Technologies Used
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB / Mongoose
-
-JWT Authentication
-
-bcrypt
-
-Frontend
-
-ReactJS
-
-Material UI
-
-React Router
-
-Axios
-
-React Query
-
-CSS Styling
-
-📦 Deployment / Docker (If Used)
-
-(Optional section — add only if you deploy)
-
-If Docker Compose is included:
-
-docker-compose up --build
-
-
-Starts backend + frontend + MongoDB containers.
+- CSS Styling
